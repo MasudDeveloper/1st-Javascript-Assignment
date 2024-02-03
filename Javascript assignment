@@ -1,0 +1,48 @@
+// ১. Variable কি ?
+var name = "masud";
+// ২. Variable কিভাবে লিখতে হয় ?
+var name = "masud";
+// ৩. string type variable কি ও কি ভাবে লিখতে হয় ?
+// variable 3 prokar = srting type, number type, boolean type
+var myname = "masud";
+
+console.log(typeof myname);
+// ৪. number type variable কি ও কি ভাবে লিখতে হয় ?
+var numvar = 1050;
+console.log(typeof numvar);
+// ৫. Boolan type variable  কি ও কি ভাবে লিখতে হয় ?
+var boolvar = true;
+console.log(typeof boolvar);
+// ৬. toUpperCase() & toLowerCase() এর ব্যাবহার কি ভাবে করতে হয় ?
+var rochona = "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+uppercase = rochona.toUpperCase();
+console.log(uppercase);
+console.log(rochona.toLowerCase());
+// ৭. JavaScript এর মোট কয়টি অপারেটর আছে ও কি কি ?
+var num1 = 10;
+var num2 = 2;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+console.log(num1 % num2);
+// ৮. Math.abs() এর ব্যাবহার লিখুন ।
+var text = 1.69;
+var uplow = Math.abs(text);
+console.log(uplow);
+// ৯. Math.celi()  এর ব্যাবহার লিখুন ।
+var text = 1.19;
+var uplow = Math.ceil(text);
+console.log(uplow);
+// ১০. Math.Floor() এর ব্যাবহার লিখুন ।
+var text = 1.99;
+var down = Math.floor(text);
+console.log(down);
+// ১১. Math.round() এর ব্যাবহার লিখুন ।
+var text = 1.5;
+var down = Math.round(text);
+console.log(down);
+// ১২. Math.random() এর ব্যাবহার লিখুন ।
+var lottery = Math.random() * 100;
+console.log(lottery);
+// asignment.js - GitHub Link //
